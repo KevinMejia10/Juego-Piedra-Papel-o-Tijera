@@ -1,0 +1,14 @@
+
+$directorioOrigen = "C:\Usuarios\Nicolas\Documento"
+$directorioDestino = "C:\Respaldos"
+
+if (!(Test-Path $directorioDestino)) {
+    New-Item -ItemType directory -Path $directorioDestino
+}
+
+$fechaHora = Get-Date -Format "20241222_184000"
+
+$directorioRespaldo = Join-Path $directorioDestino "Respaldo_$fechaHora"
+New-Item -ItemType directory -Path $directorioRespaldo
+
+Write-Host "Respaldo realizado correctamente en: $archivoRespaldo"

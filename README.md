@@ -16,7 +16,7 @@ Este es un juego clásico de piedra, papel o tijera el codigo se desarrolla en P
 
 Para ejecutar el juego, sigue estos pasos:
 
-1. Clona este repositorio: `git clone https://es.wikipedia.org/wiki/Repositorio_%28contenido_digital%29`
+1. Clona este repositorio: git clone https://github.com/KevinMejia10/Juego-Piedra-Papel-o-Tijera.git
 2. Descarga y abre el archivo "Juego Piedra Papel o Tijera" con Python.  
 3. Sigue las instrucciones en pantalla para jugar.
 

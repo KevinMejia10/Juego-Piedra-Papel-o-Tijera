@@ -16,7 +16,7 @@ print("4. Iniciar juego")
 print("5. Salir del juego")
 
 def manejar_opcion(opcion):
-# El usuario ingresa el número para acceder a la opción
+# El usuario ingresa el número para acceder a la opción del menu
 
     if opcion == 1:
         print("¡Página de inicio!")
@@ -55,7 +55,7 @@ def mostrar_instrucciones():
     print("Comencemos")
 
 def jugar():
-    """Función que ejecuta el juego de Piedra, Papel o Tijera."""
+    
 
     while True:
         opciones = ["piedra", "papel", "tijera"]
@@ -77,9 +77,9 @@ def jugar():
                 (jugador_opcion == "tijera" and computadora_opcion == "papel"):
             print("¡Ganaste!")
         else:
-            print("¡La computadora ganó!")
+            print("¡Perdiste!")
 
-        # Preguntar si jugar de nuevo
+        # Pregunta al usuario si jugar de nuevo
         while True:
             jugar_de_nuevo = input("¿Quieres jugar otra vez? (si/no): ").lower()
             if jugar_de_nuevo in ["si", "no"]:
@@ -93,7 +93,7 @@ def jugar():
 
 
 def main():
-    """Función principal que ejecuta el juego."""
+    
 
     salir = False
     while not salir:

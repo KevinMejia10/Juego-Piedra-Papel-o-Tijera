@@ -8,13 +8,13 @@ Este es el clásico juego de piedra, papel o tijera implementado en Python.
 2. Si el usuario selecciona "Iniciar Juego" la aplicacion iniciara el juego en el modo usuario vs computadora. 
 3. Se muestran las reglas del juego
    - Piedra gana a tijera.
-   - Tijera gana a papel
-   - Papel gana a piedra
-4. Iniciar la partida
+   - Tijera gana a papel.
+   - Papel gana a piedra.
+4. Iniciar la partida.
 5. El usuario elige la opcion: piedra, papel o tijera.
-6. La computadora elegira su opcion al azar
+6. La computadora elegira su opcion al azar.
 7. La computadora realiza la logica del juego o algoritmo del juego para determinar el resultado. 
-8. Finalmente se mostrara el resultado de la partida (Empate, Ganaste, Perdiste)
+8. Finalmente se mostrara el resultado de la partida (Empate, Ganaste, Perdiste).
 
 
 ## Instrucciones de uso

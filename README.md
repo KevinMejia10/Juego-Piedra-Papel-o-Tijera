@@ -19,18 +19,43 @@ Python versión 3.11.10 64 bit | Qt 5.15.8 | PyQt5 5.15.9
 
 ## Como se juega.
 
-1. Inicio del juego: Cuando se inicia el juego, el usuario accede al menu (Home, Configuracion, Perfil de Usuario, Iniciar Juego, Salir del Juego) de la aplicacion.
-2. Si el usuario selecciona "Iniciar Juego" la aplicacion iniciara el juego en el modo usuario vs computadora. 
-3. Se muestran las reglas del juego
+# Modo de Juego: Usuario vs Computadora. 
+1. Inicio del juego: Cuando se inicia el juego, el usuario accede al menu (Home, Configuracion, Perfil de Usuario, Historial y Estadisticas, Iniciar Juego, Salir del Juego) de la aplicacion.
+2. Si el usuario selecciona "Iniciar Juego" la aplicacion consultara el modo de juego que desea jugar, Usuario vs Computadora o Multijugador: Usuario vs Usuario.
+3. Si selecciona el modo de juego Usuario vs Computadora.
+4. Se muestran las reglas del juego
    - Piedra gana a tijera.
    - Tijera gana a papel.
    - Papel gana a piedra.
-4. Iniciar la partida.
-5. El usuario elige la opcion: piedra, papel o tijera.
-6. La computadora elegira su opcion al azar.
-7. La computadora realiza la logica del juego o algoritmo del juego para determinar el resultado. 
-8. Finalmente se mostrara el resultado de la partida (Empate, Ganaste, Perdiste).
+5. Ingresa nombre del jugador
+6. El usuario decide la modalidad de juego, por número partidas definidas o número de partidas libres.
+7. Iniciar la partida.
+8. El usuario elige la opcion: piedra, papel o tijera.
+9. La computadora elegira su opcion al azar.
+10. La computadora realiza la logica del juego o algoritmo del juego para determinar el resultado. 
+11. Se mostrara el resultado de la partida (Empate, Ganaste, Perdiste).
+12. Se consulta al usuario si desea seguir jugando, si su respuesta es SI, se juega una nueva partida bajo la misma modalidad, si su respuesta es NO, se muestra un registro historico y estadistica de la partida
+13. Finalmente el usuario decide si quiere regresar al menu de la aplicacion o salir del juego. 
 
+# Modo de Juego: Multijugador Usuario vs Usuario. 
+
+1. Inicio del juego: Cuando se inicia el juego, el usuario accede al menú (Home, Configuracion, Perfil de Usuario, Historial y Estadisticas, Iniciar Juego, Salir del Juego) de la aplicacion.
+2. Si el usuario selecciona "Iniciar Juego" la aplicacion consultara el modo de juego que desea jugar, Usuario vs Computadora o Multijugador: Usuario vs Usuario.
+3. Si selecciona el modo de juego Multijugador: Usuario vs Usuario.
+4. Se muestran las reglas del juego
+   - Piedra gana a tijera.
+   - Tijera gana a papel.
+   - Papel gana a piedra.
+5. Ingresa nombre del jugador 1 (jugador principal)
+6. Ingresa nombre del jugador 2
+7. El usuario principal decide la modalidad de juego, por número partidas definidas o número de partidas libres.
+8. Iniciar la partida.
+9. El usuario jugador 1 elige la opcion: piedra, papel o tijera.
+10. El usuario jugador 2 elige la opcion: piedra, papel o tijera.
+11. La computadora realiza la logica del juego o algoritmo del juego para determinar el resultado. 
+12. Se mostrara el resultado de la partida (Empate, Ganaste, Perdiste).
+13. Se consulta al usuario principal si desea seguir jugando, si su respuesta es SI, se juega una nueva partida bajo la misma modalidad, si su respuesta es NO, se muestra un registro historico y estadistica de la partida
+14. Finalmente el usuario principal decide si quiere regresar al menú de la aplicacion o salir del juego. 
 
 ## Instrucciones de instalación. 
 

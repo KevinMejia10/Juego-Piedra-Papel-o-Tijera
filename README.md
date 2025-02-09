@@ -42,7 +42,7 @@ Para ejecutar el juego, sigue estos pasos:
 
 ## Estructura del repositorio. 
 
-Diagramas de Funcionalidad y Arquitectura 
+Diagramas de Funcionalidad y Arquitectura. 
 
   * Diagrama de flujo del Juego.
   * Diagrama de flujo logica del juego (Usuario vs Computadora).
@@ -51,7 +51,6 @@ Diagramas de Funcionalidad y Arquitectura
   * Diagrama de caso de Uso ((Multijugador:  Jugador 1 vs Jugador 2).
   * Diagrama de Arquitectura de la aplicación.
 
-* Archivo .py que tiene el código del juego.
-* Archivo ReadMe. 
+Archivo .py que tiene el código del juego.Archivo ReadMe. 
 
 

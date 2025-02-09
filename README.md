@@ -52,6 +52,7 @@ Diagramas de Funcionalidad y Arquitectura.
   * Diagrama de Arquitectura de la aplicación.
 
 Archivo .py que tiene el código del juego.
+
 Archivo ReadMe. 
 
 

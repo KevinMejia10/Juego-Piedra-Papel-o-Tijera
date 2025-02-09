@@ -44,15 +44,14 @@ Para ejecutar el juego, sigue estos pasos:
 
 Diagramas de Funcionalidad y Arquitectura 
 
-* Diagrama de Flujo.
-  * Diagrama del Juego.
-  * Diagrama Logica del Juego (Usuario vs Computadora).
-  * Diagrama Logica del Juego (Multijugador:  Jugador 1 vs Jugador 2).
+  * Diagrama de flujo del Juego.
+  * Diagrama de flujo logica del juego (Usuario vs Computadora).
+  * Diagrama de flujo logica del juego (Multijugador:  Jugador 1 vs Jugador 2).
   * Diagrama de caso de uso (Usuario vs Computadora).
   * Diagrama de caso de Uso ((Multijugador:  Jugador 1 vs Jugador 2).
   * Diagrama de Arquitectura de la aplicación.
 
-* Archivo .py que tiene el código del juego
+* Archivo .py que tiene el código del juego.
 * Archivo ReadMe. 
 
 

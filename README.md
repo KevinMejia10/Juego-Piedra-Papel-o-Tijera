@@ -2,9 +2,9 @@
 
 Piedra, papel o tijera es un juego de manos en el que participan dos personas. Cada jugador elige una de tres opciones: piedra, papel o tijera. El objetivo es vencer al oponente seleccionando la opción que gana, según las siguientes reglas:
 
-La piedra aplasta la tijeras.
-La tijeras corta el papel.
-El papel envuelve la piedra
+* La piedra aplasta la tijeras.
+* La tijeras corta el papel.
+* El papel envuelve la piedra
 
 ## Ambiente IDE de desarrollo.
 Spyder version 6.0.3 (Standalone)
@@ -13,9 +13,9 @@ Spyder version 6.0.3 (Standalone)
 Python versión 3.11.10 64 bit | Qt 5.15.8 | PyQt5 5.15.9
 
 ## Librerias utilizadas.
-Random: Esta librería se utiliza para generar números aleatorios. En el juego, se usa random.choice(opciones) para que la computadora elija una opción al azar (piedra, papel o tijera). 
-La librería random es una librería estándar de Python, lo que significa que ya viene incluida en la instalación de Python. Por lo tanto, no se necesita instalarla por separado.
-La versión de la librería random que se utiliza en el codigo es la version de Python 3.11.10 64 bit | Qt 5.15.8 | PyQt5 5.15.9
+*Random: Esta librería se utiliza para generar números aleatorios. En el juego, se usa random.choice(opciones) para que la computadora elija una opción al azar (piedra, papel o tijera). 
+*La librería random es una librería estándar de Python, lo que significa que ya viene incluida en la instalación de Python. Por lo tanto, no se necesita instalarla por separado.
+* La versión de la librería random que se utiliza en el codigo es la version de Python 3.11.10 64 bit | Qt 5.15.8 | PyQt5 5.15.9
 
 ## Como se juega.
 

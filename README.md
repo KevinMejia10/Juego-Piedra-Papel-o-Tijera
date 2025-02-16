@@ -65,7 +65,7 @@ Python versión 3.11.10 64 bit | Qt 5.15.8 | PyQt5 5.15.9
 Para ejecutar el juego, sigue estos pasos:
 
 1. Clona este repositorio: git clone https://github.com/KevinMejia10/Juego-Piedra-Papel-o-Tijera.git
-2. Descarga y abre el archivo "Juego" con Python.  
+2. Descarga y abre el archivo "Juego.py" con Python.  
 3. Sigue las instrucciones en pantalla para jugar.
 
 ## Estructura del repositorio. 

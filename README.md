@@ -16,6 +16,9 @@ Python versión 3.11.10 64 bit | Qt 5.15.8 | PyQt5 5.15.9
 * Random: Esta librería se utiliza para generar números aleatorios. En el juego, se usa random.choice(opciones) para que la computadora elija una opción al azar (piedra, papel o tijera). 
 * La librería random es una librería estándar de Python, lo que significa que ya viene incluida en la instalación de Python. Por lo tanto, no se necesita instalarla por separado.
 * La versión de la librería random que se utiliza en el codigo es la version de Python 3.11.10 64 bit | Qt 5.15.8 | PyQt5 5.15.9
+* Get Pass: Esta libreria se utiliza para solicitar al usuario que ingrese su seleccion y esta no se muestre en pantalla.
+
+* Nota Importante: La libreria Get Pass no es compatible con la consola QtConsole de Spyder ¿Como solucionarlo? Ejecutar el archivo .py en otra terminal, por ejemplo, la terminal de Visual Studio Code. 
 
 ## Como se juega.
 

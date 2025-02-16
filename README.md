@@ -18,7 +18,7 @@ Python versión 3.11.10 64 bit | Qt 5.15.8 | PyQt5 5.15.9
 * La versión de la librería random que se utiliza en el codigo es la version de Python 3.11.10 64 bit | Qt 5.15.8 | PyQt5 5.15.9
 * **Get Pass:**  Esta libreria se utiliza para solicitar al usuario que ingrese su selección y esta no se muestre en pantalla.
 
-* ## Nota Importante: La libreria Get Pass no es compatible con la consola QtConsole de Spyder ¿Como solucionarlo? Ejecutar el archivo .py en otra terminal, por ejemplo, la terminal de Visual Studio Code. 
+* **Nota Importante: La libreria Get Pass no es compatible con la consola QtConsole de Spyder ¿Como solucionarlo? Ejecutar el archivo .py en otra terminal, por ejemplo, la terminal de Visual Studio Code.**  
 
 ## Como se juega.
 

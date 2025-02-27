@@ -2,7 +2,7 @@
 
 Piedra, papel o tijera es un juego de manos en el que participan dos personas. Cada jugador elige una de tres opciones: piedra, papel o tijera. El objetivo es vencer al oponente seleccionando la opción que gana, según las siguientes reglas:
 
-* La piedra aplasta la tijeras.
+* La piedra aplasta la tijera.
 * La tijeras corta el papel.
 * El papel envuelve la piedra.
 

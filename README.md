@@ -38,7 +38,7 @@ Python versión 3.11.10 64 bit | Qt 5.15.8 | PyQt5 5.15.9
 10. La computadora realiza la lógica del juego o algoritmo del juego para determinar el resultado. 
 11. Se mostrará el resultado de la partida (Empate, Ganaste, Perdiste).
 12. Se consulta al usuario si desea seguir jugando, si su respuesta es SI, se juega una nueva partida bajo la misma modalidad, si su respuesta es NO, se muestra un registro histórico y estadística de la partida
-13. Finalmente el usuario decide si quiere regresar al menu de la aplicación o salir del juego. 
+13. Finalmente se muestra el menu principal y el usuario decide si quiere volver a jugar o salir del juego. 
 
 ### Modo de Juego: Multijugador Usuario vs Usuario. 
 
@@ -58,7 +58,7 @@ Python versión 3.11.10 64 bit | Qt 5.15.8 | PyQt5 5.15.9
 11. La computadora realiza la lógica del juego o algoritmo del juego para determinar el resultado. 
 12. Se mostrara el resultado de la partida (Empate, Ganaste, Perdiste).
 13. Se consulta al usuario principal si desea seguir jugando, si su respuesta es SI, se juega una nueva partida bajo la misma modalidad, si su respuesta es NO, se muestra un registro histórico y estadística de la partida
-14. Finalmente el usuario principal decide si quiere regresar al menú de la aplicación o salir del juego. 
+14. Finalmente se muestra el menu principal y el usuario decide si quiere volver a jugar o salir del juego. 
 
 ## Instrucciones de instalación. 
 

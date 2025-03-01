@@ -23,7 +23,7 @@ Python versión 3.11.10 64 bit | Qt 5.15.8 | PyQt5 5.15.9
 ## Como se juega.
 
 ### Modo de Juego: Usuario vs Computadora. 
-1. Inicio del juego: Cuando se inicia el juego, el usuario accede al menú (Home, Configuración, Perfil de Usuario, Historial y Estadústicas, Iniciar Juego, Salir del Juego) de la aplicación.
+1. Inicio del juego: Cuando se inicia el juego, el usuario accede al menú (Home, Configuración, Perfil de Usuario, Historial y Estadísticas, Iniciar Juego, Salir del Juego) de la aplicación.
 2. Si el usuario selecciona "Iniciar Juego" la aplicación consultara el modo de juego que desea jugar, Usuario vs Computadora o Multijugador: Usuario vs Usuario.
 3. Si selecciona el modo de juego Usuario vs Computadora.
 4. Se muestran las reglas generales del juego y en específico para la modalidad elegida. 

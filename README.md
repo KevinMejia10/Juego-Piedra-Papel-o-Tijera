@@ -79,6 +79,8 @@ Diagramas de Funcionalidad y Arquitectura.
   * Diagrama de caso de uso ((Multijugador:  Jugador 1 vs Jugador 2).
   * Diagrama de Arquitectura de la aplicación.
 
+PDF presentación del juego. 
+
 Archivo .py que tiene el código del juego.
 
 Archivo ReadMe. 

@@ -80,14 +80,12 @@ def manejar_opcion(opcion):
 
     elif opcion == 4:
         print("¡Iniciar juego!")
-        
-        # Borrar estadísticas de juegos anteriores
-        historico_juegos = []
-        estadisticas = {
+        historico_juegos.clear()
+        estadisticas.update({
             "jugador1": {"ganadas": 0, "perdidas": 0, "empatadas": 0},
             "jugador2": {"ganadas": 0, "perdidas": 0, "empatadas": 0},
             "computadora": {"ganadas": 0, "perdidas": 0, "empatadas": 0},
-        }
+        })
         
         mostrar_menu_modos_juego()  # Muestra el menú de modos de juego
         return True
@@ -128,7 +126,7 @@ def mostrar_menu_modos_juego():
         jugar_usuario_vs_computadora(): Inicia el juego en modo Usuario vs Computadora.
         mostrar_reglas_multijugador(): Muestra las reglas del modo Multijugador.
         jugar_multijugador(): Inicia el juego en modo Multijugador.
-        main(): Regresa al menú principal del juego.
+        main(): Regresa al menú principal del juego. 
     """
     
     global modo_juego
@@ -335,7 +333,6 @@ def jugar_usuario_vs_computadora():
                 if jugar_de_nuevo == "no":
                         print("¡Gracias por jugar! ¡Hasta la próxima!")
                         mostrar_historico_estadisticas()  # Mostrar histórico y estadísticas
-                        main()  # Regresar al menú principal
                         return  # Salir de la función
                 
         # Preguntar si jugar de nuevo (solo si se definió número de partidas)
@@ -354,7 +351,6 @@ def jugar_usuario_vs_computadora():
             else:
                 print("¡Gracias por jugar! ¡Hasta la próxima!")
                 mostrar_historico_estadisticas()  # Mostrar histórico y estadísticas
-                main()  # Regresar al menú principal
                 return  # Salir de la función
          
 def jugar_multijugador():
@@ -401,7 +397,7 @@ def jugar_multijugador():
         else:
             print("Opción no válida. Inténtalo de nuevo.")
 
-    if definir_partidas == "si":
+    if definir_partidas == "si": 
         while True:
             try:
                 num_partidas = int(input("Ingrese el número de partidas a jugar: "))
@@ -480,7 +476,6 @@ def jugar_multijugador():
                 if jugar_de_nuevo == "no":
                         print("¡Gracias por jugar! ¡Hasta la próxima!")
                         mostrar_historico_estadisticas()  # Mostrar histórico y estadísticas
-                        main()  # Regresar al menú principal
                         return  # Salir de la función
                   
         # Preguntar si jugar de nuevo (solo si se definió número de partidas)
@@ -499,10 +494,8 @@ def jugar_multijugador():
             else:
                 print("¡Gracias por jugar! ¡Hasta la próxima!")
                 mostrar_historico_estadisticas()  # Mostrar histórico y estadísticas
-                main()  # Regresar al menú principal
                 return  # Salir de la función        
         
-
 def mostrar_historico_estadisticas():
     
     """Muestra el histórico de juegos y las estadísticas del juego Piedra, Papel o Tijera.
